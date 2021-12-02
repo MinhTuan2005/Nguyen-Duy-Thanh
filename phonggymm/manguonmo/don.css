@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+#khung
+{
+	width: 1000px;
+	overflow-x: auto;
+	border: 2px solid red;
+/*	background: red;*/
+	border-top: none;
+}
+.a
+{
+	margin-left: 50px;
+}
+.b
+{
+	border: 1px solid #51DEF5;
+	height: 30px;
+	border-radius: 6px;
+}
+.c
+{
+	width: 900px;
+	
+}
+.c1
+{
+	float: left;
+/*	background: green;*/
+}
+.clear
+{
+	clear: both;
+}
+.button
+{
+	width: 120px; 
+	height: 40px; 
+	background:#12BBE5; 
+	border: none;
+	
+	margin-left: 735px;
+	color: #FFF;
+}
+

@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+.mau
+{
+	width: 1296px;
+	height: 214px;
+	background: #454343;
+	position: absolute;
+	top: 0px;
+	opacity: 0.7;
+	font-size: 22px;
+	color: yellow;
+}
+#Maincontent
+{
+	width: 1296px;
+}
+.menubt1
+{
+	width: 1296px;
+
+	margin-top: -5px;
+	height: 60px;
+	border: 1px solid black;
+	
+}
+.menubt
+{
+	display: flex;
+	list-style: none;
+	padding: 0px;
+	margin-left: 60px;
+}
+.menubt li
+{
+	margin-left: 100px;
+	line-height: 50px;
+}
+.menubt li a
+{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-weight: 600;
+}
+.menubt li:hover
+{
+	border-bottom: 2px solid yellow;
+	
+}
+
+
+
+/*
+===========================Tập vai======================
+.bt
+{
+	width: 1100px;
+	margin: 0px auto;
+	background: rgb(244,244,244);
+}
+.vdvai
+{
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.vdvai iframe
+{
+	max-height: 200px;
+	max-width: 300px;
+}*/

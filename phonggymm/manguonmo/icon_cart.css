@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+	body{
+		position: relative;
+	}
+	.icon1
+	{
+		position: absolute;
+		color: red;
+		font-size: 40px;
+		right: 30px;
+		top: 380px;
+	}
+	.number
+	{
+		font-size: 20px;
+		position: absolute;
+		top: 18px;
+		color: #FFF;
+		left: 20px;
+	}
+	.menu a
+{
+	color: #FFF;
+	text-decoration: none;
+}
+.sanpham1 a{
+	text-decoration: none;
+	color: black;
+}

@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica, Arial", "sans-serif";
+}
+#Tong{
+	width: 1296px;
+	margin: 0px auto;
+	background: rgb(244,244,244);
+}
+/*======================banner======================*/
+.anhde{
+	position: absolute;
+	background: #333333;
+	width: 1296px;
+	height: 500px;
+	top: 0px;
+	opacity: 0.7;
+}
+.anhde1
+{
+	position: absolute;
+	background: rgb(246, 246, 246);
+	width: 1296px;
+	height: 100px;
+	top: 400px;
+}
+/*==========================Nội dung giữa==========================*/
+#Maincontent
+{
+	width: 1296px;
+	background: rgb(246, 246, 246);
+	margin-top: -5px;
+}
+/*=========================Trái=========================*/
+.trai{
+	float: left;
+	width: 400px;
+}
+.nd{
+	margin-left: 30px;
+	
+}
+.nd img
+{
+	margin-left: 45px;
+	max-height: 60px;
+	max-width: 60px;
+}
+.trai p
+{
+	color: #5E5B5B;
+}
+.trai b
+{
+	color: black;
+}
+/*=========================phải=========================*/
+.phai{
+	float: left;
+	width: 700px;
+	margin-left: 50px;
+}

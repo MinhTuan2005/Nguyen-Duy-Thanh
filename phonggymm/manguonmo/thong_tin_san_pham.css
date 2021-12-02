@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+.left
+{
+	float: left;
+/*	width: 250px;*/
+/*	background: red;*/
+}
+.giua
+{
+/*	width: 800px;*/
+/*	height: 450px;*/
+/*	background: red;*/
+	display: flex;
+	justify-content: center;
+}
+.clear
+{
+	clear: both;
+}
+.soluong
+{
+	width: 40px;
+	height: 40px;
+	border: 1px solid black;
+	font-size: 22px;
+	border-radius: 5px;
+}
+.thongtin
+{
+	width: 350px;
+	
+	background: rgba(221,220,220,0.5);
+}
+.mua
+{
+	width: 150px;
+	height: 50px;
+	background: red;
+	color: #FFF;
+	font-size: 20px;
+	font-weight: 700;
+	border: none;
+	border-radius: 5px;
+}
+.check{
+	width: 300px;
+/*	height: 50px;*/
+	background: rgba(221,220,220,0.5);
+	font-size: 14px;
+	
+}
+.check span i
+{
+	color: forestgreen;
+	font-weight: 700;
+}
+.mua:hover
+{
+	transform: scale(1.1);
+	transition: 1s;
+	
+}
+.right
+{
+	float: left;
+
+/*	background: blue;*/
+}

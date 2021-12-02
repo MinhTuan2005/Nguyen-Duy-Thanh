@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+.sanpham
+{
+	width: 1000px;
+/*	height: 200px;*/
+/*	background: red;*/
+	margin: 0 auto;
+	overflow: hidden;
+/*	position: relative;*/
+}
+.chu
+{
+	width: 220px;
+/*	height: 80px;*/
+/*	background: pink;*/
+}
+.sanpham1
+{
+	width: 220px;
+	height: 350px;
+/*	background: yellow;*/
+	float: left;
+	margin-left: 22px;
+/*	overflow: scroll;*/
+	position: relative;
+}
+.clear{
+	clear: both;
+}
+.sanpham1 a{
+	text-decoration: none;
+	color: black;
+}
+.tong_vongtron
+{
+	position: absolute;
+	top: 95px;
+	left: 40px;
+	
+}
+.vongtron
+{
+	width: 30px;
+	height: 30px;
+	border: none;
+	border-radius: 50%;
+	background: rgba(0,0,0,0.6);
+	position: relative;
+transform: translate(2em,2em);
+	transition: 1s;
+	visibility: hidden;
+	opacity: 0;
+}
+.vongtron i:hover
+{
+	transform: rotate(2turn);
+	transition: 1s;
+}
+.sanpham1:hover .vongtron
+{
+	
+	visibility: visible;
+	transition: 1s ease;
+	transform: translate(-2em,-2em);
+	opacity: 1;
+}
+.chu:hover
+{
+	color: red;
+}
+.tcsp
+{
+	width: 1000px;
+	height: 100px;
+/*	background: red;*/
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.ngang2{
+	float: right;
+	margin-top: 20px;
+}
+	 .table_wrapper{
+    display: block;
+    overflow-x: hidden;
+/*    white-space: nowrap;*/
+/*	 background: red;*/
+	 height: 200px;
+	width: 1000px;
+	margin: 0 auto;
+}
+ .table_wrapper{
+    display: block;
+    overflow-x: hidden;
+/*    white-space: nowrap;*/
+/*	 background: yellow;*/
+	 height: 700px;
+}

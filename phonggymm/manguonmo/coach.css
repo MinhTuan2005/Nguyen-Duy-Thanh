@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+#Tong{
+	width: 1296px;
+	margin: 0px auto;
+/*	background: rgb(244,244,244);*/
+}
+#Maincontent
+{
+	width: 1296px;
+	margin: 0px auto;
+}
+.giua1{
+	position: relative;
+}
+.anhde{
+	position: absolute;
+	background: #333333;
+	width: 1296px;
+	height: 500px;
+	top: 0px;
+	opacity: 0.7;
+}
+.tieude
+{
+	position: absolute;
+	width: 1296px;
+	background: #FFF;
+	top: 400px;
+	height: 100px;
+	border-bottom: 1px solid black;
+}
+.tieude1
+{
+	
+	display: flex;
+	
+	
+}
+.tieude1 li a
+{
+	text-decoration: none;
+	color: black;
+	
+}
+.tieude ul li
+{
+	list-style: none;
+	margin-top: 10px;
+	margin-left: 130px;
+	font-weight: 700;
+	
+}
+.tieude1 li:hover
+{
+	border-bottom: 3px solid yellow;
+}
+.ndkn
+{
+	width: 1000px;
+	margin: 0px auto;
+	font-size: 20px;
+}
+.scoach
+{
+	width: 1296px;
+
+	position: relative;
+}
+.mau
+{
+	position: absolute;
+	width: 1296px;
+	height: 870px;
+	background: hsl(60, 2%, 14%);
+	opacity: 0.9;
+	top: 82px;
+}
+.anhcoach
+{
+	position: absolute;
+	top: 100px;
+	left: 115px;
+	list-style: none;
+	padding: 0px;
+}
+.anhcoach1 img
+{
+	max-height: 300px;
+	max-width: 300px;
+}
+.anhcoach1
+{
+	float: left;
+	margin-left: 100px;
+	list-style: none;
+	padding: 0px;
+}
+
+ul li
+{
+	list-style: none;
+	padding: 0px;
+}
+
+
+.jcoach
+{
+	width: 1296px;
+
+}
+.anhjcoach
+{
+	float: left;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+
+.anhjcoach img
+{
+	max-height: 300px;
+	max-width: 300px;
+}

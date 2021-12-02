@@ -1,0 +1,395 @@
+@charset "utf-8";
+/* CSS Document */
+#Tong{
+	width: 1296px;
+	margin: 0px auto;
+}
+#MainContent
+{
+	width: 1296px;
+	margin: 0px auto;
+}
+.chuyenanh
+{
+	width: 1296px;
+}
+.anh1 img
+{
+	margin-left: 20px;
+}
+.anh1 img:first-child
+{
+	margin-left: 70px;
+}
+
+.tonganh .anh2:first-child
+{
+	margin-left:60px;
+	
+}
+.tonganh .anh2:nth-child(4)
+{
+	margin-left: 60px;
+	margin-top: -35px;
+}
+.tonganh .anh2:nth-child(5)
+{
+
+	margin-top: -35px;
+}
+.tonganh .anh2:nth-child(6)
+{
+
+	margin-top: -35px;
+}
+.anh2 
+{
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+.anh2 p img
+{
+		max-width: 400px;
+		max-height: 400px;		
+}
+.mau{
+    width: 400px; 
+	height: 400px; 
+	background: red;
+	opacity: 0.5; 
+	position: absolute; 
+	top: 0px; 
+	display: none;
+/*	border: 5px solid red;*/
+	
+}
+.chu{
+	
+	color: black;
+	position: absolute;
+	width: 400px;
+	top: 300px;
+}
+.chu h1
+{
+	text-align: center;
+}
+.anh2:hover .mau
+{
+	display: block;
+}
+.zoom{
+	transition: 1s;
+/*	position: absolute;*/
+}
+.anh2:hover .zoom{
+	transform: scale(1.2);
+	z-index: 999;
+}
+.anh2:hover .chu
+{
+	color: #FFF;
+}
+
+/*===============================Các Thương hiệu===============================*/
+.cacth
+{
+	float: left;
+	background: #FFF;
+	width: 300px;
+}
+.k
+{
+	margin: 0px auto;
+	text-align: center;
+}
+
+
+.chu2
+{
+	width: 275px;
+	background: #FFF;
+	border-left: 3px solid red;
+	margin-left: 15px;
+}
+.cacth
+{
+	margin-left: 20px;
+}
+/*========================Chuyên gia===============*/
+.tongcg .chuyengia:first-child
+{
+	margin-left: 120px;
+}
+.tongcg .chuyengia:nth-child(3)
+{
+	margin-left: 120px;
+}
+.chuyengia
+{
+	width: 500px;
+	background-color: rgba(237,191,192,1.00);
+	height: 272px;
+	box-shadow: 2px 2px 5px 5px #AAA;
+	float: left;
+	margin-left: 60px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.anhcg{
+	float: left;
+}
+.anhcg img
+{
+	max-height: 400px;
+	max-width: 200px;
+}
+.ttcg{
+	float: left;
+	width: 300px;
+	overflow-x: hidden;
+	
+}
+.ttcg1
+{
+	
+	width: 270px;
+	border-left: 5px solid red;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+.ttcg2
+{
+	margin-left: 10px;
+	height: 160px;
+}
+
+a
+{
+	text-decoration: none;
+}
+.dk
+{
+	margin: 0px auto;
+	width: 300px;
+	height: 80px;
+	background: red;
+	border-radius: 5px;
+	color: #FFF;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.dk1
+{
+	position: absolute;
+	width: 300px;
+	height: 80px;
+	background: #FFF;
+	opacity: 0.5;
+	box-shadow: 2px 2px 8px 8px #AAA;
+	display: none;
+	border-radius: 5px;
+	
+}
+.dk:hover .dk1{
+	display: block;
+}
+/*=================================Câu chuyện thành công==============================*/
+.cctc
+{
+	margin-top: 100px;
+	width: 1296px;
+	background: rgb(244,244,244);
+	position: relative;
+	
+	height: 850px;
+}
+.anh3{
+	margin-left: 50px;
+	position: relative;
+	height: 525px;
+}
+.anh3 img:not(.a)
+{
+	position: absolute;
+	display: none;
+	top: 0px;
+	left: 0px;
+}
+
+.nut{
+	font-size: 70px;
+	position: absolute;
+	top: 180px;
+}
+
+/*=================================Các hội viên nổi tiếng==============================*/
+.chvnt
+{
+	position: relative;
+}
+
+/*================================Kỳ duyên=======================*/
+.chvnt img
+{ 
+	margin-left: 68px;
+	
+}
+.chvnt1
+{
+	top: 20px;
+	left: 650px;
+	position: absolute;
+	z-index: 2;
+	width: 220px;
+	height: 220px;
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+.chvnt2{
+	position: absolute;
+	left: 710px;
+	z-index: 3;
+	top: 240px;
+	color: yellow;
+	font-size: 22px;
+	font-weight: 700;
+	
+}
+.chvnt1:hover
+{
+	border: 5px solid hsl(204, 86%, 40%);
+	-webkit-transition: all 0.5s ease-in-out;
+  	-moz-transition: all 0.5s ease-in-out;
+  	transition: all 0.5s ease-in-out;
+	transform: rotate(6turn);
+}
+.anhtron1
+{
+	background-image: url("../img/img-trangchinh/kyduyen.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+/*================================pham Hương=======================*/
+.anhtron2
+{
+	background-image: url("../img/img-trangchinh/phamhuong.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.chvnt3
+{
+	top: 20px;
+	left: 980px;
+	position: absolute;
+	z-index: 2;
+	width: 220px;
+	height: 220px;
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+.chvnt4{
+	position: absolute;
+	left: 1030px;
+	z-index: 3;
+	top: 240px;
+	color: yellow;
+	font-size: 22px;
+	font-weight: 700;
+	
+}
+.chvnt3:hover
+{
+	border: 5px solid red;
+	-webkit-transition: all 0.5s ease-in-out;
+  	-moz-transition: all 0.5s ease-in-out;
+  	transition: all 0.5s ease-in-out;
+	transform: rotate(6turn);
+}
+
+/*================================Hồ Vĩnh Khoa====================================*/
+.anhtron3
+{
+	background-image: url("../img/img-trangchinh/hovinhkhoa.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.chvnt5
+{
+	top: 310px;
+	left: 650px;
+	position: absolute;
+	z-index: 2;
+	width: 220px;
+	height: 220px;
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+.chvnt6{
+	position: absolute;
+	left: 700px;
+	z-index: 3;
+	top: 530px;
+	color: yellow;
+	font-size: 22px;
+	font-weight: 700;
+	
+}
+.chvnt5:hover
+{
+	border: 5px solid yellow;
+	-webkit-transition: all 0.5s ease-in-out;
+  	-moz-transition: all 0.5s ease-in-out;
+  	transition: all 0.5s ease-in-out;
+	transform: rotate(6turn);
+}
+
+/*================================Vũ Cát Tường====================================*/
+.anhtron4
+{
+	background-image: url("../img/img-trangchinh/vucattuong.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.chvnt7
+{
+	top: 310px;
+	left: 980px;
+	position: absolute;
+	z-index: 2;
+	width: 220px;
+	height: 220px;
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+.chvnt8{
+	position: absolute;
+	left: 1030px;
+	z-index: 3;
+	top: 530px;
+	color: yellow;
+	font-size: 22px;
+	font-weight: 700;
+	
+}
+.chvnt7:hover
+{
+	border: 5px solid green;
+	-webkit-transition: all 0.5s ease-in-out;
+  	-moz-transition: all 0.5s ease-in-out;
+  	transition: all 0.5s ease-in-out;
+	transform: rotate(6turn);
+}
+/*================================Bài tập hữu ích nhất====================================*/
+.bt
+{
+	float: left;
+	margin-left: 68px;
+	font-size: 14px;
+}

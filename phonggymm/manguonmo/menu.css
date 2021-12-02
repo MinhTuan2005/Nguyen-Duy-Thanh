@@ -1,0 +1,93 @@
+
+#Tong{
+	width: 1296px;
+	margin: 0px auto;
+}
+#banner
+{
+	width: 1296px;
+}
+#header
+{
+	width: 1296px;
+	background: black;
+	position: relative;
+}
+.anhmenu
+{
+	float: left;
+	margin-left: 50px;
+}
+.menu1
+{
+	float: left;
+	margin-left: 100px;
+}
+.menu
+{
+	display: flex;
+	list-style: none;
+	padding: 0px;
+	
+}
+.menu a
+{
+	color: #FFF;
+	text-decoration: none;
+}
+ul li{
+	line-height: 55px;
+	position: relative;
+	
+}
+.menu>li
+{
+	margin-left: 20px;
+	
+	color: #FFF;
+	
+}
+.menu>li:hover
+{
+	border-bottom: 5px solid yellow;
+	-webkit-transition: all 0.25s ease-in-out;
+  	-moz-transition: all 0.25s ease-in-out;
+  	transition: all 0.25s ease-in-out;
+}
+ul li ul
+{
+	position: absolute;
+	list-style: none;
+	padding: 0px;
+	background: #FFF;
+	left: -30px;
+	border-radius: 10px;
+	width: 150px;
+	color: black;
+	display: none;
+	padding-left: 20px;
+	z-index: 9999;
+}
+ul li:hover ul
+{
+	display: block;
+}
+.clear
+{
+	clear: both;
+}
+.menu>li:last-child
+{
+	margin-left: 50px;
+}
+.dangxuat{
+	left: 0px;
+	padding-left: 40px;
+}
+.hethan
+{
+	left: 550px;
+	top: 50px;
+	position: absolute;
+/*	font-weight: 700;*/
+}

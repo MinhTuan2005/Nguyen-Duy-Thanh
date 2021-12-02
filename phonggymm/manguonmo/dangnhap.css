@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+body
+{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica, Arial", "sans-serif";
+}
+*/
+#Tong{
+	width: 1296px;
+	margin: 0px auto;
+	background: rgb(244,244,244);
+}
+#Maicontent
+{
+	position: relative;
+}
+
+.dn{
+	position: absolute;
+	top: 110px;
+	left: 190px;
+	height: 322px;
+	width: 500px;
+	color: #FFF;
+	border: 4px groove red;
+	background: rgb(39, 39, 39);
+}
+.dn>p
+{
+	margin-left: 20px;
+	font-size: 20px;
+	font-weight: 700;
+}
+.thea
+{
+	width: 500px;
+
+	height: 20px;
+	
+}
+.thea a:nth-child(1)
+{
+	float: left;
+	color: #FFF;
+	margin-left: 110px;
+}
+.thea a:nth-child(2)
+{
+	float: right;
+	color: #FFF;
+	margin-right: 60px;
+}
+form p
+{
+	font-size: 18px;
+}
+form p input
+{
+	height: 30px;
+	border-radius: 5px;
+	border: none;
+}
+form p:last-child input
+{
+	width: 200px;
+	height: 40px;
+/*	margin-left: -28px; */
+	background: red; border: none; 
+	border-radius: 5px; 
+	color: #FFF; 
+/*	margin-left: 20px;*/
+	cursor: pointer;
+}
+.dk
+{
+	width: 200px;
+	height: 40px;
+/*	margin-left: -28px; */
+	background: red; border: none; 
+	border-radius: 5px; 
+	color: #FFF; 
+	margin-left: 60px;
+	cursor: pointer;
+/*	margin-top: -20px;*/
+	float: left;
+}
+.cn
+{
+	width: 150px;
+	height: 40px;
+/*	margin-left: -28px; */
+	background: red; border: none; 
+	border-radius: 5px; 
+	color: #FFF; 
+	margin-left: 100px;
+	cursor: pointer;
+	float: left;
+	line-height: 40px;
+}
+.cn a{
+	text-decoration: none;
+	
+	color: #FFF;
+}
+form p:last-child input:hover
+{
+	
+}
